@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap');
+*{font-family:"Montserrat"
+}
+.titulo{font-size: 50px;
+  padding: 20px 0px 60px 0px;
+  text-align: center;
+
+}
+main{
+margin: 25px auto;
+width: 50%;
+
+
+}
+.btn-outline-success{
+  width: 180px;
+text-align:center;
+}
+.boton{
+  font-size: 30px;
+
+}
