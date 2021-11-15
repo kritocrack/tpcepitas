@@ -1,41 +1,38 @@
  <!DOCTYPE html>
 
-<html lang="en" dir="ltr">
-  <head>
+    <html lang="en" dir="ltr">
+    <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Pagina tp final</title>
-
-  </head>
-  <body>
-    <body style="background-color:rgba(255, 228, 225);">
-    </body>
-<h1 class="titulo"> Tp cepas <h1>
-  <main>
-  <button type="button" id="inicio" class="btn btn-outline-success"><h1 class="boton">Inicializar</h1></button>
-  <button type="button" id="inicio" class="btn btn-outline-info"><h1 class="boton">Max Generación</h1></button>
-  <body>
-  <button type="button" id="Mutacion" class="btn btn-outline-danger"> <h1 class="boton2" <h1 onclick="fun()"> Mutación </h1></button>
-   <div id = "muta" style = "display: none"> Ingrese cepas <h1 class="oculto" </h1> </ div>
-
-  <script type="text/javascript">
-      var flag = false;
-      var div = document.getElementById("muta");
-
-      function fun() {
+    </head>
+    <body>
+      <body style="background-color:rgba(255, 228, 225);">
+        <h1 class="titulo"> Cepas <h1>
+        <main>
+          <button type="button" id="inicio" class="btn btn-outline-success"><h1 class="boton">Inicializar</h1></button>
+          <button type="button" id="inicio" class="btn btn-outline-info"><h1 class="boton">Max Generación</h1></button>
+          <button type="button" id="Mutacion" class="btn btn-outline-danger"> <h1 class="boton2" <h1 onclick="fun()"> Mutación </h1></button>
+          <div id = "muta" style = "display: none"> <h1 class="oculto"> Ingrese cepas:
+            <p>
+            <input type="number" placeholder="escriba cepa" <h1 class="form1" id="cepasInput" name="cepas"</h1>
+            <input type="number" placeholder= "escriba cepa madre" <h1 class="form2" id="madresInput" name="madres" </h1>
+            <input type="submit" <h1 class= "envio" value="Enviar" </h1>
+            </p>
+          </form> </h1> </div>
+          <form action="../form-result.php" target="_blank">
+          </main>
+        <script type="text/javascript">
+          var flag = false;
+          var div = document.getElementById("muta");
+          function fun() {
           if (flag ^= true) {
-                           div.style.display = "block"; // display
-          } else {
-                           div.style.display = "none"; // hide
+          div.style.display = "block"; //display
+          }else{
+          div.style.display = "none"; //hide
           }
-      }
-  </script>
-
-
-  </main>
-
+          }
+        </script>
   </body>
-
-
 </html>
