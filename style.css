@@ -26,3 +26,22 @@ text-align:center;
 .boton2{
   font-size: 25px;
 text-align:center;
+}
+  .oculto{
+    font-size: 25px;
+  padding: 20px 0px 60px 0px;
+
+ }
+.envio{
+    font-size: 15px;
+
+}
+.form1{
+    padding:
+    width: 250px;
+    font-size: 20px;
+}
+.form2{
+ width:250px;
+     font-size: 20px;
+}
